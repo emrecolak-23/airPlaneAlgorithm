@@ -4,7 +4,6 @@ const input = [
   [2, 3],
   [3, 4],
 ];
-
 function airplane(arr, numberOfPerson) {
   let seats = [];
   let rowCount = 0;
@@ -98,5 +97,7 @@ function airplane(arr, numberOfPerson) {
 
   console.log(seats);
 }
+console.time('myCode');
 
 airplane(input, 30);
+console.timeEnd('myCode');
